@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning Testing">
+	<listeners>
+		<listener class-name="utilities.MyTransformer"></listener>
+		<listener class-name="listeners.CustomListeners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="listeners.ExtentReporterNG"></listener>
+	</listeners>
+
+
+	
+	<test name="Home Page Test">
+		<classes>
+			<class name="test.HomePageTest" />
+		</classes>
+	</test>
+	
+	<test name="Top Menu bar Test">
+		<classes>
+			<class name="test.TopMenuBarTest" />
+		</classes>
+	</test>
+	
+	<test name="Connection Page Test">
+		<classes>
+			<class name="test.ConnectionsPageTest" />
+		</classes>
+	</test>
+	
+		<test name="Module Page Test">
+		<classes>
+			<class name="test.ModulePageTest" />
+		</classes>
+	</test>
+	
+		<test name="Widget Page Test">
+		<classes>
+			<class name="test.WidgetPageTest" />
+		</classes>
+	</test>
+	
+		<test name="Calculated Column Test">
+		<classes>
+			<class name="test.CalcColPageTest" />
+		</classes>
+	</test>
+	
+		<test name="Conditional Styles Test">
+		<classes>
+			<class name="test.CondStylePageTest" />
+		</classes>
+	</test>	
+	
+		<test name="Styles Test">
+		<classes>
+			<class name="test.StylesPageTest" />
+		</classes>
+	</test>
+	
+		<test name="Theme Test">
+		<classes>
+			<class name="test.ThemesPageTest" />
+		</classes>
+	</test>
+
+</suite>

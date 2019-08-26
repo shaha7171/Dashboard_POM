@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning Testing]">
+  <listeners>
+    <listener class-name="utilities.MyTransformer"/>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="listeners.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Home Page Test(failed)">
+    <classes>
+      <class name="test.HomePageTest">
+        <methods>
+          <include name="clickOnConnTest"/>
+          <include name="setUp"/>
+          <include name="init"/>
+          <include name="close"/>
+          <include name="sendMail"/>
+        </methods>
+      </class> <!-- test.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Learning Testing] -->

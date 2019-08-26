@@ -1,0 +1,25 @@
+INFO    2019-07-11 16:04:58,360 [main] base.BaseTest  - Config file loaded !!!
+INFO    2019-07-11 16:04:58,362 [main] base.BaseTest  - OR file loaded !!!
+INFO    2019-07-11 16:05:00,515 [main] base.BaseTest  - DB Connection established !!!
+INFO    2019-07-11 16:05:00,534 [main] base.BaseTest  - Initiallaizing browser and other settings
+INFO    2019-07-11 16:05:05,887 [main] base.BaseTest  - Chrome Launched
+INFO    2019-07-11 16:05:08,650 [main] base.BaseTest  - Navigated to : http://162.70.13.98/Dashboard_QA/
+INFO    2019-07-11 16:05:11,289 [main] base.BaseTest  - Clicking on an Element : CalColumn_CSS
+INFO    2019-07-11 16:05:12,432 [main] base.BaseTest  - Clicking on an Element : NCCSave_CSS
+INFO    2019-07-11 16:05:13,612 [main] base.BaseTest  - Test Execution Completed !!!
+INFO    2019-07-11 16:05:13,614 [main] base.BaseTest  - Initiallaizing browser and other settings
+INFO    2019-07-11 16:05:17,165 [main] base.BaseTest  - Chrome Launched
+INFO    2019-07-11 16:05:20,057 [main] base.BaseTest  - Navigated to : http://162.70.13.98/Dashboard_QA/
+INFO    2019-07-11 16:05:22,496 [main] base.BaseTest  - Clicking on an Element : CalColumn_CSS
+INFO    2019-07-11 16:05:23,700 [main] base.BaseTest  - Clicking on an Element : NCCCancel_CSS
+INFO    2019-07-11 16:05:24,298 [main] base.BaseTest  - Clicking on an Element : NCCNo_CSS
+INFO    2019-07-11 16:05:25,458 [main] base.BaseTest  - Test Execution Completed !!!
+INFO    2019-07-11 16:05:25,458 [main] base.BaseTest  - Initiallaizing browser and other settings
+INFO    2019-07-11 16:05:29,064 [main] base.BaseTest  - Chrome Launched
+INFO    2019-07-11 16:05:31,835 [main] base.BaseTest  - Navigated to : http://162.70.13.98/Dashboard_QA/
+INFO    2019-07-11 16:05:34,393 [main] base.BaseTest  - Clicking on an Element : CalColumn_CSS
+INFO    2019-07-11 16:05:35,617 [main] base.BaseTest  - Clicking on an Element : NCCCancel_CSS
+INFO    2019-07-11 16:05:37,075 [main] base.BaseTest  - Clicking on an Element : NCCYes_CSS
+INFO    2019-07-11 16:05:38,156 [main] base.BaseTest  - Test Execution Completed !!!
+INFO    2019-07-11 16:05:38,188 [main] base.BaseTest  - Sending Mail...
+INFO    2019-07-11 16:05:38,189 [main] base.BaseTest  - Test Report has emailed!!!
